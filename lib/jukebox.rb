@@ -22,11 +22,17 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
+<<<<<<< HEAD
   song_num = gets.chomp
   if song_num.to_i > 0 && song_num.to_i <= songs.length
     puts "Playing #{songs[song_num.to_i - 1]}"
   elsif songs.include? (song_num)
     puts "Playing #{song_num}"
+=======
+  song_num = gets.chomp.to_i
+  if song_num > 0 && song_num <= songs.length
+    puts "Playing #{songs[song_num - 1]}"
+>>>>>>> 325dd6791c5defc03c41f1e4a08a9c400edf4f1d
   else
     puts "Invalid input, please try again"
   end
@@ -36,9 +42,14 @@ def exit_jukebox
   puts "Goodbye"
 end
 
+<<<<<<< HEAD
 def run(songs)
   help
   user_ans = ""
+=======
+def run
+  help
+>>>>>>> 325dd6791c5defc03c41f1e4a08a9c400edf4f1d
   until user_ans == "exit"
     puts "Please enter a command:"
     user_ans = gets.chomp
@@ -55,4 +66,10 @@ def run(songs)
       puts "Invalid command. Type \"help\" for help."
     end    
   end
+<<<<<<< HEAD
 end
+=======
+end
+
+run
+>>>>>>> 325dd6791c5defc03c41f1e4a08a9c400edf4f1d
