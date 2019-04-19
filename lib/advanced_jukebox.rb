@@ -2,15 +2,15 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
-# my_songs = {
-# "Go Go GO" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/01.mp3',
-# "LiberTeens" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/02.mp3',
-# "Hamburg" =>  '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/03.mp3',
-# "Guiding Light" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/04.mp3',
-# "Wolf" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/05.mp3',
-# "Blue" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/06.mp3',
-# "Graduation Failed" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/07.mp3'
-# }
+my_songs = {
+ "Go Go GO" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/01.mp3',
+ "LiberTeens" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/02.mp3',
+ "Hamburg" =>  '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/03.mp3',
+ "Guiding Light" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/04.mp3',
+ "Wolf" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/05.mp3',
+ "Blue" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/06.mp3',
+ "Graduation Failed" => '/c/Users/cenam/.atom/.learn-ide/home/amy/jukebox-cli-prework/audio/Emerald-Park/07.mp3'
+ }
 
 def help
   #this method should be the same as in jukebox.rb
@@ -20,7 +20,7 @@ end
 
 
 def list(my_songs)
-  #this method is different! Collect the keys of the my_songs hash and
+  #this method is different! Collect the keys of the my_songs hash and 
   #list the songs by name
 end
 
@@ -33,7 +33,7 @@ def play(my_songs)
   #if it isn't, tell them their choice is invalid
   #if it is, play the song using the system 'open <file path>' syntax
   #get the file path of the song by looking it up in the my_songs hash
-
+  
 end
 
 def exit_jukebox
