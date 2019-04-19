@@ -70,6 +70,6 @@ def run
       exit_jukebox
     else
       puts "Invalid command. Type \"help\" for help."
-    end    
+    end
   end
 end
