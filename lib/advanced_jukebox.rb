@@ -13,8 +13,7 @@ my_songs = {
  }
 
 def help
-  #this method should be the same as in jukebox.rb
-
+  puts "I accept the following commands:\n- help : displays this help message\n- list : displays a list of songs you can play\n- play : lets you choose a song to play\n- exit : exits this program\n"
 end
 
 
@@ -22,6 +21,8 @@ end
 def list(my_songs)
   #this method is different! Collect the keys of the my_songs hash and
   #list the songs by name
+  my_songs.each.with_index(1) |name, path, index|
+    puts "#{index}. #{name}"
 end
 
 
