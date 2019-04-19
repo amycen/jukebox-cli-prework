@@ -39,6 +39,9 @@ def play(my_songs)
   song_name = gets.chomp
   if my_songs.include? (song_name)
     system open my_songs[song_name]
+  else
+    puts "Invalid input, please try again"
+  end
 end
 
 def exit_jukebox
