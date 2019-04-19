@@ -53,9 +53,6 @@ def run(my_songs)
   #this method is the same as in jukebox.rb
   help
   user_ans = ""
-
-def run
-  help
   until user_ans == "exit"
     puts "Please enter a command:"
     user_ans = gets.chomp
